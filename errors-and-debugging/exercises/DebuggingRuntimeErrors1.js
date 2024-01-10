@@ -2,7 +2,7 @@
 //Pay close attention to any line numbers mentioned in the message - these will help locate and repair the mistake in the code.
 
 let launchReady = false;
-let fuelLevel = 17000;
+let fuellevel = 17000;
 
 if (fuellevel >= 20000) {
    console.log('Fuel level cleared.');
