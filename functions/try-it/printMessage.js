@@ -1,10 +1,10 @@
-let message = "Hello, World!";
+// let message = "Hello, World!";
 
-function printMessage() {
-   console.log(message);
-}
+// function printMessage() {
+//    console.log(message);
+// }
 
-printMessage();
-message = "Goodbye";
-printMessage();
+// printMessage();
+// message = "Goodbye";
+// printMessage();
 
