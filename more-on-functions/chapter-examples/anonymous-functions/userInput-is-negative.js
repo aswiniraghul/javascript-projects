@@ -4,7 +4,19 @@ let logger = function(errorMsg) {
   console.log("ERROR: " + errorMsg);
 };
 if (userInput < 0) {
-  // ______("Invalid input");
+  logger("Invalid input");
 }
 
 // Fill in the blank in line 7 (then uncomment it) so that it logs an error message if userInput is negative.
+
+
+// let logger = function(errorMsg) {
+//       console.log("ERROR: " + errorMsg);
+//    };
+  
+//    let userInput = -2;  // Assuming you have a variable userInput defined
+  
+//    if (userInput < 0) {
+//        logger("Invalid input");
+//    }
+  

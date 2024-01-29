@@ -20,10 +20,51 @@ function findMinValue(arr){
 
 //Your function here...
 
-/* BONUS MISSION: Refactor your sorting function to use recursion below:
- */
-
 //Sample arrays for testing:
+
 let nums1 = [5, 10, 2, 42];
 let nums2 = [-2, 0, -10, -44, 5, 3, 0, 3];
 let nums3 = [200, 5, 4, 10, 8, 5, -3.3, 4.4, 0];
+
+//function 
+function sortNumber(arr) {
+	let sortedArray = [];
+	while (arr.length > 0) {
+		let minValue = findMinValue(arr);
+		sortedArray.push(minValue);
+		arr.splice(arr.indexOf(minValue), 1);	
+	}
+	return sortedArray;
+}
+console.log(sortNumber(nums1));
+console.log(sortNumber(nums2));
+console.log(sortNumber(nums3));
+
+
+
+/* BONUS MISSION: Refactor your sorting function to use recursion below:
+ */
+
+function recursionSort(arr, sorted = []) {
+	
+	if (arr.length === 0) {
+		return sorted;
+	}
+	let minValue = findMinValue(arr);
+		sorted.push(minValue);
+		arr.splice(arr.indexOf(minValue), 1);	
+	//console.log(arr, sorted); // to show what is happening on each recursive pass
+	// Call function with updated arrays
+	return recursionSort(arr, sorted);
+}
+console.log("The Bonus Mission - Recursion sort :");
+
+let nums1A = [5, 10, 2, 42];
+let nums2A = [-2, 0, -10, -44, 5, 3, 0, 3];
+let nums3A = [200, 5, 4, 10, 8, 5, -3.3, 4.4, 0];
+
+console.log(recursionSort(nums1A));
+console.log(recursionSort(nums2A));
+console.log(recursionSort(nums3A));
+
+
