@@ -13,7 +13,7 @@ let test = function(myinput) {
       return "ARRR!"
   }else {
   return result;   
-   } 
+   }  
 } 
 console.log(test("hello"));
 

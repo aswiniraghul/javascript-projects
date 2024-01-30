@@ -9,7 +9,9 @@ let nums3 = [200, 5, 4, 10, 8, 5, -3.3, 4.4, 0];
 console.log("The minimum value from the arrays are :");
 
 function findMinValue(arr) {
+	//start by assuming first number in array is the smallest
 	let minValue = arr[0];
+	//check rest number ans see any small number
 	for (let i=1; i < arr.length; i++) {
 		if (arr[i] < minValue) {
 			minValue = arr[i];

@@ -28,10 +28,18 @@ let nums3 = [200, 5, 4, 10, 8, 5, -3.3, 4.4, 0];
 
 //function 
 function sortNumber(arr) {
+	//create an empty araay to store sorted numbers
 	let sortedArray = [];
+	//repeat the process until original array is empty
 	while (arr.length > 0) {
+		
+		//find the smallest number 
 		let minValue = findMinValue(arr);
+		
+		//add teh smallest number to our sorted array
 		sortedArray.push(minValue);
+		
+		//remove the smallest number from the original array
 		arr.splice(arr.indexOf(minValue), 1);	
 	}
 	return sortedArray;
