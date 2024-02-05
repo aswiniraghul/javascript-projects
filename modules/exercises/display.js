@@ -33,4 +33,7 @@ function printTestScores(index,test,students,scores){
     console.log(`${students[i]} = ${scores[i][index]}%.`);
   }
   return;
+  
 }
+
+module.exports = printAll;
