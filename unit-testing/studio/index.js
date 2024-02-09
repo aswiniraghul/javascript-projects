@@ -12,19 +12,19 @@ let launchcode = {
         //if(num % 3 ===0){
            //result+= "Code"; 
         //}
-           //if(num % 5 === 0){
-            //if (result.length>0){
-                //result +=" ";
-           // }
+   //         if(num % 5 === 0){
+   //          if (result.length>0){
+   //              result +=" ";
+   //         }
 
-           //result+= "Rocks"; 
-        //}
-        //if(result.length>0){
-            //result+="!";
-      //}else{
-       // result+="Rutabagas! That doesn't work."
-     // }
-        //}return result;
+   //         result+= "Rocks"; 
+   //      }
+   //      if(result.length>0){
+   //          result+="!";
+   //    }else{
+   //     result+="Rutabagas! That doesn't work."
+   //   }
+   //      }return result;
            
 		let parts = {
 			2: "Launch",
