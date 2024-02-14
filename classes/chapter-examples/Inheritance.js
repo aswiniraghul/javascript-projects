@@ -21,3 +21,5 @@ class Tiger extends Panthera {
 let tigger = new Tiger();
 
 console.log(tigger);
+
+
