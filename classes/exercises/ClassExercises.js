@@ -114,7 +114,8 @@ class Book {
           this.discarded = 'Yes';
        }
     }
- }let goodRead;
+ }
+ let goodRead;
  let makingTheShip = new Manual('Top Secret Shuttle Building Manual', 'Redacted', 2013, '0000000000000', 1147, 1, 'No');
- goodRead.checkout(5);
-goodRead.dispose();
+console.log(makingTheShip.checkout(5));
+console.log(makingTheShip.dispose());

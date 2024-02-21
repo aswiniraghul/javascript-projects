@@ -60,16 +60,18 @@ console.log(MerryMaltese.average());
 //Part 4 - Use the methods to boost Glad Gator’s status to Reserve or higher. How many tests will it take to reach Reserve status? How many to reach Accepted? Remember, scores cannot exceed 100%.
 let reserveCount = 0;
 while (GladGator.status() !== "Reserve") {
-	GladGator.addScore(100);
-	reserveCount++;
+    GladGator.addScore(100);
+    reserveCount++;
 }
 console.log(GladGator.scores);
 console.log(`\nIt took ${reserveCount} scores to get Glad Gator up to Reserve status!`);
 
 let acceptedCount = 0;
 while (GladGator.status() !== "Accepted") {
-	GladGator.addScore(100);
-	acceptedCount++;
+    GladGator.addScore(100);
+    acceptedCount++;
 }
 console.log(GladGator.scores);
 console.log(`\nIt took ${acceptedCount} scores to get Glad Gator up to Accepted status!`);
+
+

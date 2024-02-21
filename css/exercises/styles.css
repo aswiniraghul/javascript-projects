@@ -1,1 +1,28 @@
 /* Start adding your styling below! */ 
+body {
+    background-color: yellow; /* Change the background color to yellow */}
+    .center {
+text-align: center;
+  }
+  p {
+color: green;
+font-size: 20px;
+}
+h1 {
+font-size: 36px;
+}
+h2{
+    font-size: 36px;
+      color:green;}
+
+    
+  #cool-text {
+color: blue;
+}
+
+#list-color {
+color: blueviolet;
+}
+#list2-size{
+    font-size: 20px;
+}
