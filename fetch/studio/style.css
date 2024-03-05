@@ -14,3 +14,17 @@
     margin-bottom: 20px;
     border-radius: 6px;
 }
+
+/* Bonus missions */
+
+.active {
+    color: green;
+  }
+  
+  #count {
+    color: white;
+    width: 500px;
+    margin-bottom: 50px;
+  }
+  
+  
